@@ -27,5 +27,4 @@ miniconda:
     - nbconvert
     - ipykernel
     - pip
-    - pip: []
   prefix: /etc/miniconda/envs
