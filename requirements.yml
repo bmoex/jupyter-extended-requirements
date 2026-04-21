@@ -1,0 +1,30 @@
+---
+# Requirements for the ResearchCloud Custom Packages Component:
+# https://gitlab.com/rsc-surf-nl/plugins/plugin-custom-packages
+apt:
+  repo_keys: []
+  repos: []
+  packages: []
+miniconda:
+  name: jupyter-extended
+  channels:
+    - conda-forge
+    - defaults
+  dependencies:
+    - python=3.11
+    - numpy
+    - pandas
+    - matplotlib
+    - scipy
+    - scikit-learn
+    - seaborn
+    - statsmodels
+    - xarray
+    - bokeh
+    - plotly
+    - ipywidgets
+    - jupyterlab
+    - nbconvert
+    - ipykernel
+    - pip
+  prefix: /etc/miniconda/envs
